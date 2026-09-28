@@ -1,6 +1,6 @@
 venv/
-data/raw/*
-data/processed/*
+data/raw/era5
+data/raw/imgw
 *.tif
 *.nc
 *.parquet
