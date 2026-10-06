@@ -12,6 +12,8 @@ OUTPUTS_DIR = BASE_DIR / "outputs"
 
 # Pliki danych wejściowych (raw)
 ERA5_NETCDF_PATH = RAW_DATA_DIR / "krakow_era5_2000_2025.nc"
+BALICE_PATH = RAW_DATA_DIR / "krakow_balice_imgw_2000_2025.csv"
+OBSERWATORIUM_PATH = RAW_DATA_DIR / "krakow_obserwatorium_imgw_2000_2025.csv"
 DEM_RASTER_PATH = RAW_DATA_DIR / "krakow_dem.tif"
 LAND_COVER_PATH = RAW_DATA_DIR / "krakow_land_cover.tif"
 
