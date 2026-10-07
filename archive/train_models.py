@@ -31,7 +31,7 @@ y_train = df_train['temp_ground'].values
 X_test = df_test[features].values
 y_test = df_test['temp_ground'].values
 
-# Rezydua: sieć uczy się mikroklimatycznej poprawki (delta)
+# Rezydua: sieć uczy się mikroklimatycznej poprawki rezydualnej(delta)
 delta_train = y_train - df_train['temp_era5'].values
 delta_test = y_test - df_test['temp_era5'].values
 
